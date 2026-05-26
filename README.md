@@ -12,13 +12,13 @@ There are **two key aspects** that must be continuously monitored in an agentic 
 
 Both are important for operating **multi-agent systems** reliably at scale.
 
-In this blog, we will build all the core architectural layers needed to deploy a production-ready agentic system, **so teams can confidently deploy AI agents in their own infrastructure or for their clients.**
+We will build all the core architectural layers needed to deploy a production-ready agentic system, **so teams can confidently deploy AI agents in their own infrastructure or for their clients.**
 
 You can clone the repo:
 
 ```bash
-git clone https://github.com/FareedKhan-dev/production-grade-agentic-system
-cd production-grade-agentic-system
+git clone https://github.com/AlexPi44/production-grade-ai-system
+cd production-grade-ai-system
 ```
 
 ## Table of Content
@@ -3538,6 +3538,3 @@ We can see the y-axis. The latency varies between 0.98s and 2.10s, which is expe
 
 We can do a bit more complex stress test like gradually increasing load over time (ramp-up), or testing sustained high load (soak test) to see if memory leaks occur.
 
-**But you can use my Github project to further go deeper into load testing and monitoring your AI-native applications in production.**
-
-> You can [follow me on Medium](https://medium.com/@fareedkhandev) if you find this article useful
